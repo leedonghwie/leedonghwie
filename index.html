@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donghwi lee</title>
+    <style>
+    
+    html {
+          background-color:black;
+          color:white;
+          }
+    h1 {
+      text-align:center;
+      margin-bottom:0;
+      margin-top: 20px;
+      padding:10px;
+      font-size:30px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: normal;
+    }
+    #MenuGrid{
+      max-width:600px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    div{
+      font-size:15px;
+      border:2px solid white;
+      padding-top:10vh;
+      padding-bottom:10vh; 
+    }
+
+    @media(max-width: 510px){
+        #MenuGrid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 30px;
+        margin-right: 30px;
+        }
+      h1{
+        text-align:left;
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: normal;
+        }
+        a{
+          text-decoration-line: none;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          color: white;
+        }
+      }    
+    
+    
+    </style>
+  </head>
+
+  <body>
+        <h1>donghwi lee</h1>
+
+        <span id="MenuGrid" style="width:auto; margin:auto;">
+          <style>
+            div{
+              height: 300px;
+              border-right: 3px solid white; margin:0;
+            }
+          </style>
+          <div style="display:flex; flex-direction:column; justify-content: center; border-left:3px solid white; padding:20px">
+                      
+            <input type=button
+                      value=단락글(예술이론)
+                      onclick="location.href='textblocks1.html'"
+                      style="font-size:normal;font-weight:normal; padding:20px; margin:10px;">
+               <input type=button
+                      value=단락글(기타)
+                      onclick="location.href='textblocks2.html'"
+                      style="font-size:normal;font-weight:normal; padding:20px; margin:10px;">
+                    </div>
+          <div style="display:flex; flex-direction:column; justify-content: center; padding:20px">
+            <input type=button
+                  value=빠른일기
+                  onclick="location.href='http://www.donghwilee.com/category/pparn'"
+                  style="font-size:normal;font-weight:normal; padding:20px; margin:10px;"></div>
+        </span>
+
+
+        <br><span style="display:flex; justify-content:center;">
+              <input type=button
+                  value='memo'
+                  onclick="location.href='blackmemo.html'"
+                  style="margin-top:50px; margin-bottom:50px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+            </span>
+    </body>
+</html>

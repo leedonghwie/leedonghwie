@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donghwi lee</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      html {
+          background-color:black;
+          color:white;
+        }
+        a{
+              text-decoration-line: none;
+              font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              color: white;
+            }
+        #textblocksGrid{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            
+        }
+        div{
+        text-align:center;
+        font-size:15px;
+        border:2px solid white;
+        padding:2px;
+        height:15vh;
+        padding-top:9vh;
+        
+        }
+        div:hover{
+        background-color:darkslategray;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        font-style:italic;
+        }
+        @media(max-width: 510px){
+          h1{
+            text-align:left;
+            font-size: 20px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: normal;
+          }
+          #textblocksGrid{
+              display:grid;
+              grid-template-columns: 1fr 1fr;        
+          }
+          div{
+            text-align:center;
+            font-size:12px;
+            border:2px solid white;
+            height:14vh;
+            padding-top:12vh;
+          }
+          }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span style="display:flex; justify-content: left;">
+        <span style="height:8vh; padding-top:4vh; border:none;">
+        <input type=button
+        value=home
+        onclick="location.href='index.html'"
+        style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"></span>
+      </span></header>
+
+    <h1>단락글(예술이론)</h1>
+    <span id="textblocksGrid">
+          <div><a href="https://donghwilee.com/14466">예술작품 개념과 ‘예술작품성’― ‘엉덩이’의 댓글에 답하기</a></div>
+          <div><a href="https://donghwilee.com/14406">[번역] 예술은 게임이다: 왜 중요한 건 애쓰는 일인가</a></div>
+          <div><a href="https://donghwilee.com/14380">먼지가 뭔지: 이다민의 ‘먼지란 무엇인가’에 또 부쳐 </a></div>
+          <div><a href="https://donghwilee.com/13826">예술이론의 순환성 (분석미학 비판?)</a></div>
+          <div><a href="https://donghwilee.com/13751">예술이론의 언어3/3: 사변의 검증</a></div>
+          <div><a href="https://donghwilee.com/13721">예술이론의 언어2: 언어를 선택함</a></div>
+          <div><a href="https://donghwilee.com/13660">예술이론의 언어</a></div>
+          <div><a href="https://donghwilee.com/13405">예술과 개념</a></div>
+          <div><a href="https://donghwilee.com/13093">작품의 죽음</a></div>
+
+        </span>
+
+      
+  </body>
+</html>
