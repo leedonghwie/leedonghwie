@@ -1,0 +1,32 @@
+body {
+    background-color:rgb(41,41,41);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  p {
+    font-size : 11pt;
+  }
+  a {
+    color: white;
+  }
+  .DateText{
+    display:flex;
+    flex-direction:row; 
+    flex-wrap:nowrap; 
+    align-items:center;
+    border:1px solid white;
+  }
+  .Date{
+    font-size:12px;
+    margin: 2px;
+  }
+  input[type="button"]{
+    display:flex; 
+    justify-content: left;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size:smaller;
+    font-weight:300;
+}

@@ -4,68 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>donghwi lee</title>
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-      html {
-          background-color:black;
-          color:white;
-        }
-        a{
-              text-decoration-line: none;
-              font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-              color: white;
-            }
-        #textblocksGrid{
-            display:grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            
-        }
-        div{
-        text-align:center;
-        font-size:15px;
-        border:2px solid white;
-        padding:2px;
-        height:15vh;
-        padding-top:9vh;
-        
-        }
-        div:hover{
-        background-color:darkslategray;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: white;
-        font-style:italic;
-        }
-        @media(max-width: 510px){
-          h1{
-            text-align:left;
-            font-size: 20px;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-weight: normal;
-          }
-          #textblocksGrid{
-              display:grid;
-              grid-template-columns: 1fr 1fr;        
-          }
-          div{
-            text-align:center;
-            font-size:12px;
-            border:2px solid white;
-            height:14vh;
-            padding-top:12vh;
-          }
-          }
-    </style>
+    <link rel="stylesheet" href="style_textblocks.css">
   </head>
   <body>
     <header>
-      <span style="display:flex; justify-content: left;">
-        <span style="height:8vh; padding-top:4vh; border:none;">
+      <span>
         <input type=button
-        value=home
-        onclick="location.href='../index.html'"
-        style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"></span>
-      </span></header>
+                value=home
+                onclick="location.href='../index.html'">
+      </span>
+    </header>
 
     <h1>단락글(예술이론)</h1>
     <span id="textblocksGrid">
@@ -78,8 +26,7 @@
           <div><a href="https://donghwilee.com/13660">예술이론의 언어</a></div>
           <div><a href="../text/textblocks1/art_and_concept.html">예술과 개념</a></div>
           <div><a href="../text/textblocks1/death_of_artwork.html">작품의 죽음</a></div>
-
-        </span>
+    </span>
 
       
   </body>

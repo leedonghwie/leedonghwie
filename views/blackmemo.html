@@ -4,48 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>memo</title>
-    <style>
-      
-      body {
-        background-color:black;
-        color: white;
-        font-size: 15px;
-        text-align: center;
-        border: 2px solid white;
-      }
-      p {
-        font-size : 11pt;
-      }
-      a {
-        color: white;
-      }
-      .DateText{
-        display:flex;
-        flex-direction:row; 
-        flex-wrap:nowrap; 
-        align-items:center;
-      }
-      .Date{
-        font-size:12px;
-        margin: 2px;
-      }
-     
-    </style>
+    <link rel="stylesheet" href="style_blackmemo.css">
   </head>
-  
   <header>
-    <span style="display:flex; justify-content: left;">
-      <span style="height:0; padding-top:0; border:none;">
+    <span>
       <input type=button
-      value=home
-      onclick="location.href='../index.html'"
-      style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"></span>
-    </span></header>
+              value=home
+              onclick="location.href='../index.html'">
+    </span>
+  </header>
   
     <body>
 
     <h1>memo</h1>
-    <hr>
 
     <span class=DateText>
       <div class=Date, style="font-size: x-small">8.18</div>
@@ -53,91 +24,87 @@
         resave:false,
         saveUninitialized:false,
         // RESAVE and SAVEUNINITIALIZED 'false', because I don't want to give and save cookie for anonymous(uninitialized) users.
-      </p></div></span><hr>
+      </p></div></span>
 
     <span class=DateText>
       <div class=Date>8.16</div>
       <div><p>
         언어는 수행적이라고 말을 하지만 언어가 그 자체로 수행적이진 않다. 언어의 수행은 언어의 특정 효과이다. 모든 언어가 명령은 아니다.<br>
         반면 컴퓨터 언어는 (내가 써본 데까지는) 모두 명령이다. 여기서 언어는 말그대로 수행이 된다. 컴퓨터가 듣지 못하도록 다는 주석 외에는, 혼잣말이나 감탄사 같은 것이 없다. 모두 회화여서 그런 것 같다. 전달되지 않는 언어는 있지만 전달되지 않는 컴퓨터 언어는 없는 것과 같다. 그런 점에서 수어(sign language)에 더 가깝지 않을지.
-      </p></div></span><hr>
+      </p></div></span>
 
     <span class=DateText>
       <div class=Date>8.16</div>
       <div><p>
         정말 그대로 서버를 github에 올렸더니 아무 것도 작동되지 않았다. 'to publish node.js website via github'라고 찾아보니 누가 이런 조언을 누군가에게 해놓었다. "GitHub 페이지는 오로지 정적인 HTML 페이지만 호스팅합니다. 서버 사이드 기술을 지원하지 않으므로, Node.js 어플리케이션은 GitHub 페이지에서 작동하지 않습니다. 다른 호스팅 제공자가 Node.js 위키에 많이 나와있습니다."
-      </p></div></span><hr>
+      </p></div></span>
 
     <span class=DateText>
       <div class=Date>8.15</div>
       <div><p>
         node.js, express, babel 등을 이용해서 로컬 서버를 열고, 거기에 homepage.ejs 파일을 연결시켰다. 이게 의미하는 바가 무엇일까? 이걸 어떻게 공개할 수 있을까? 애초에 왜 서버가 필요했을까? 그냥 vsc와 github을 무한히 늘려가면 되는 것을.
-      </p></div></span><hr>
+      </p></div></span>
 
     <span class=DateText>
       <div class=Date>8.15</div>
       <div><p>
         컴퓨터 언어는 틀린 것을 출력하지 않지만, 인간은 오류를 허용해줄 새로운 컴파일러 혹은 인터프리터를 개발함으로써 이를 보완한다. 말하자면 관용을 만들어내는 것이다. 오류에의 유연성은 언어마다(?) 달라진다.
-      </p></div></span><hr>
+      </p></div></span>
 
     <span class=DateText>
       <div class=Date>8.15</div>
       <div><p style="text-align:left; font-size:smaller">
       upload.pug 템플릿에서 유저가 title, description, hashtag를 입력한다.<br>입력된 req를 Video.js라는 Mongoose Model의 mongoose.Schema 함수가 먼저 가공하고, 저장하기 전에 .pre라는 Mongoose middleware가 가공한다.<br>가공된 데이터는 videoController에서 await.Video.create라는 함수로 생성 및 저장된다. 'await'이므로 Mongoose Model의 가공을 기다린다. try-catch로 감싸서 에러를 잡는다.<br>업로드는 페이지에 방문(get)하는 게 아니라 생성 및 저장하는 과정으로 POST에 해당한다. 애초에 videoRouter에서 .route().get().post()라는 express 함수로써 GET과 POST를 구분해놓았다.
-      </p></div></span><hr>
+      </p></div></span>
 
 
     <span class=DateText>
       <div class=Date>8.15</div>
       <div><p>
         민주적 슬로건이 고맙긴 하지만 나의 관심은 그와는 약간 다르게, '언어의 복수성'이다. 언어의 복수성에 대해서 썼던 적이 있다. "어떤 근거에서든지―이 글은 이 ‘근거’를 특정하는 데엔 관심이 없다―한 언어가 그 이론에 적합하다고 말하려면, 그 전에 (a)해당 예술이론의 언어가 사용자에 의해 ‘선택되었음’을 알 수 있어야 하고, (b) 적어도 사용자의 지평에 구분가능한 복수의 ‘언어들’이 존재해야 한다."(<a href="https://donghwilee.com/13721">예술이론의 언어2: 언어를 선택함</a>)
-      </p></div></span><hr>
+      </p></div></span>
 
     <span class=DateText>
       <div class=Date>8.15</div>
       <div><p>
         <a href="html.energy">html.energy</a> 사이트에서 보여주듯이, html이라는 베이직한 언어'만으로' 할 수 있는 것이 많다고 한다. 언어의 '콜렉터'가 되려고 하지 말고 백 투 베이직!이라고 외치는 것은 어떤 면에서 민주적이다. 뭔가를 많이 갖추지 않고도 어떤 자유를 찾을 수 있다고 말해준다.
-      </p></div></span><hr>
+      </p></div></span>
 
 
     <span class=DateText>
       <div class=Date>8.11</div>
       <div><p>
         server.js => Router, Controller => templates, 'expand' => partial, mixin => form, POST, GET => Database, CRUD
-      </p></div></span><hr>
+      </p></div></span>
     
     <span class=DateText>
       <div class=Date>8.11</div>
       <div><p>
         어떤 교육은 교육의 전과 후의 차이를 '느낄' 수 있을뿐 '측정'하기 어렵다고 해보자. 이때 교육의 효과는 실재하는가, 실재하지 않는가? 시간 t가 흘러야 판단할 수 있다고 해보자. 그런데 t가 무한대로 발산한다면? 아니면, 판단하는 자가 t만큼의 시간을 기다릴 수가 없다면?
-      </p></div></span><hr>
+      </p></div></span>
 
     <span class=DateText>
       <div class=Date>8.10</div>
       <div><p>
         '기계화'는 축복이다. 어떻게하면 반복을 줄일 수 있을까.
-      </p></div></span><hr>
+      </p></div></span>
     
       <span class=DateText>
         <div class=Date>8.10</div>
         <div><p>
           어젠 킴과 지미가 휴엘을 변호하는 장면을 보았다. 킴이 검사를 직접 만나고, 지미는 뒷작업을 했다. 비유하자면 검사의 입장에서 킴은 프론트엔드, 지미는 백엔드 작업을 담당했다. 꼭 그 둘을 구분하지 않더라도, 목적을 위해 어떤 짜여진 순서(program)대로 진행되어야하는 일들이 구동되었다. 이런 비유는 뉴비에게 참기 힘든 유혹이다. 
-        </p></div></span><hr>
+        </p></div></span>
      
-      </span><hr>
+      </span>
       <span class=DateText>
         <div class=Date>8.10</div>
         <div><p>
           웹의 지상목표가 '많은 트래픽'은 아니다. 만일 그래보인다면 그것은 우리가 대개의 경우 '많은 트래픽'의 일부이기 때문일 것이다. 언제나 '많은 트래픽' 속에 있다면, 언제나 웹을 '방문'할뿐 '사용'할 수는 없을 것이다. 사용하지 못하는 무엇은 종종 나를 압도한다. 압도되지 않는 방법은, 한번 그것을 '사용'해보는 것이다. 사용하기 위해서는 '옳은 사용'(예컨대 '많은 트래픽'을 가능케해야함 등)이 존재하리라는 생각을 (적어도 잠시) 벗어나야 하는데, 이는 이론의 사용에 대해서도 해당하는 말인 것 같다.
         </p></div>
-      </span><hr>
-      
-      <p>서버 자체는, 생각했던 것과 다르게, 공간이라기보다 줄글에 가까운 것 같다. 생각해보면 아무도 서버를 공간으로 비유하지 않았다. 더 적절하게 비유하면, 서버는 요청(request)과 응답(response)으로 이루어진 시 혹은 춤에 가까워보인다.</p><hr>
-      
-      <p>
-        <a href=https://plato.stanford.edu/entries/computational-linguistics/#IntGoaMetComLin>Computational Linguistics(SEP)</a>
-      </p><hr>
-      
+      </span>
+      <span class=DateText>
+        <p>서버 자체는, 생각했던 것과 다르게, 공간이라기보다 줄글에 가까운 것 같다. 생각해보면 아무도 서버를 공간으로 비유하지 않았다. 더 적절하게 비유하면, 서버는 요청(request)과 응답(response)으로 이루어진 시 혹은 춤에 가까워보인다.</p><hr>
+      </span>      
   </body>
 
   <footer style="font-size:x-small; text-align:center; margin-top:60px">
