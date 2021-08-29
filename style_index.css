@@ -16,15 +16,15 @@ h1 {
     display:grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     }
 #indexGrid__column
     {
         display:flex; 
         flex-direction:column; 
         justify-content: center; 
-        padding:20px;
+        padding:30px 0;
     }
 div{
     height:40vh;
@@ -58,10 +58,10 @@ input[type="button"]{
     background-color: transparent;
     color: white;
     border: 1px solid white;
-    font-size:large;
+    font-size:medium;
     border-radius: 5%;
     font-weight:normal; 
-    padding:20px; 
+    padding:20px 8px; 
     margin:10px;
 }
 
