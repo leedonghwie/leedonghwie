@@ -8,9 +8,6 @@ body {
     font-size: 15px;
     text-align: center;
   }
-  p {
-    font-size : 11pt;
-  }
   a {
     color: white;
   }
@@ -25,6 +22,12 @@ body {
     font-size:12px;
     margin: 2px;
   }
+  #memoText{
+    border-left:1px solid white;
+    padding: 1px 10px;
+    font-size:small;
+  }
+
   input[type="button"]{
     display:flex; 
     justify-content: left;
