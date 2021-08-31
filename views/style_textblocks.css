@@ -27,8 +27,7 @@ div{
     padding-bottom:9vh;
 }
     div:hover{
-    background-color:darkslategray;`
-    font-style:italic;
+    background-color:darkslategray;
 }
   @media(max-width: 510px){
     h1{
@@ -54,4 +53,7 @@ input[type="button"]{
     border: 1px solid white;
     font-size:smaller;
     font-weight:300;
+}
+input[type="button"]:hover{
+  background-color:darkslategray;
 }

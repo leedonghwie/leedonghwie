@@ -28,3 +28,6 @@ input[type="button"]{
     font-size:smaller;
     font-weight:300;
 }
+input[type="button"]:hover{
+  background-color:darkslategray;
+}
