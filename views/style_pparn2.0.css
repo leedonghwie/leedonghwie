@@ -28,7 +28,6 @@ div{
 }
     div:hover{
     background-color:darkslategray;
-    font-style:italic;
 }
   @media(max-width: 510px){
     h1{
