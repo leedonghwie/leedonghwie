@@ -3,15 +3,15 @@ const pparnGrid = document.getElementById("pparnGrid");
 const pparnArray = [
     {
         title: "8.24",
-        link: "../text/pparn/210824.html",
+        link: "../../text/pparn/210824.html",
     },
     {
         title: "8.30",
-        link: "../text/pparn/210830.html",
+        link: "../../text/pparn/210830.html",
     },
     {
         title: "8.31",
-        link: "../text/pparn/210831.html",
+        link: "../../text/pparn/210831.html",
     },
 ];
 
