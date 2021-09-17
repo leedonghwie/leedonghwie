@@ -1,4 +1,6 @@
 html {
+    max-width:600px;
+    margin: 0 auto;
     background-color:rgb(41,41,41);
     color:white;
     font-family:
