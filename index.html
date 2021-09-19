@@ -10,7 +10,6 @@
 
   <body>
         <h1>donghwi lee</h1>
-
         <span id="indexGrid" style="width:auto; margin:auto;">
           <div id="indexGrid__column">
             <input type=button
@@ -39,7 +38,7 @@
             onclick="location.href='./views/blackmemo.html'">
         </span>
     </body>
-    <footer style="font-size:x-small; text-align:center; margin-top:60px">  
+    <footer style="font-size:x-small; text-align:center; margin-top:60px">
       <span id="copyrightMark" style="margin-right: 20px;">
         &copy; 
         <script>
@@ -47,10 +46,18 @@
         </script> donghwi LEE 
       </span>
       |
-      <span id="linkTwitter__Icon">
+      <span id="linkTwitter__Icon" style="margin-right: 20px;">
         <a href="http://twitter.com/leedonghwii">
           <i id="twitterIcon" class="fab fa-twitter"></i>
         </a>
-      </span>      
+      </span>
+      |
+      <span id="visits" style="margin-left: 20px;">...</span>      
     </footer>
+    <script>
+      function cb(response) {
+          document.getElementById('visits').innerText = response.value;
+      }
+      </script>
+      <script async src="https://api.countapi.xyz/hit/https://leedonghwie.github.io/leedonghwie/visits?callback=cb"></script>
 </html>
