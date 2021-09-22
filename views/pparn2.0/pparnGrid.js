@@ -17,6 +17,10 @@ const pparnArray = [
         title: "9.21",
         link: "../../text/pparn/210921.html",
     },
+    {
+        title: "9.22",
+        link: "../../text/pparn/210922.html",
+    },
 ];
 
 function arrayPush(){
