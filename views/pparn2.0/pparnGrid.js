@@ -21,6 +21,10 @@ const pparnArray = [
         title: "9.22",
         link: "../../text/pparn/210922.html",
     },
+    {
+        title: "지금도 하고 있고 아마 겨울 동안 내내 할 것 같은 일들-번역, 세미나, 연구(네이버블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222525728941",
+    },
 ];
 
 function arrayPush(){
