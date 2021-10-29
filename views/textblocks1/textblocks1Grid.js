@@ -2,11 +2,11 @@ const textblocksGrid=document.getElementById("textblocksGrid");
 
 const textblocksArray = [
     {
-        title: "작품의 죽음",
+        title: "작품의 죽음(html)",
         link: "../../text/textblocks1/death_of_artwork.html",
     },
     {
-        title: "예술과 개념",
+        title: "예술과 개념(html)",
         link: "../../text/textblocks1/art_and_concept.html",
     },
     {
@@ -38,7 +38,7 @@ const textblocksArray = [
         link: "https://donghwilee.com/14466",
     },
     {
-        title: "예술이론의 이론: '예술이론성'과 언어",
+        title: "예술이론의 이론: '예술이론성'과 언어(postype)",
         link: "https://leetunnel.postype.com/post/11047373",
     },
 ];

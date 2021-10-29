@@ -22,7 +22,7 @@ const textblocksArray = [
         link: "https://donghwilee.com/12183",
     },
     {
-        title: "[체르노빌]: 한 가지 관찰과 해석",
+        title: "「체르노빌」: 한 가지 관찰과 해석",
         link: "https://donghwilee.com/13091",
     },
     {
@@ -30,11 +30,11 @@ const textblocksArray = [
         link: "https://donghwilee.com/13945",
     },
     {
-        title: "대상 없음: 현시원의 열한 페이지",
-        link: "https://donghwilee.com/14289",
+        title: "대상 없음: 현시원의 열한 페이지(colleague)",
+        link: "https://colleague.co.kr/forum/view/523629",
     },
     {
-        title: "루이ck, <sincerely>",
+        title: "루이ck, <sincerely>(html)",
         link: "../../text/textblocks2/louis_ck.html",
     },
 ];
