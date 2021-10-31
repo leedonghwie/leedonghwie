@@ -14,8 +14,8 @@ const textblocksArray = [
         link: "https://donghwilee.com/10417",
     },
     {
-        title: "도둑 맞은 ‘D’에 관한 세미나",
-        link: "https://donghwilee.com/10737",
+        title: "도둑 맞은 ‘D’에 관한 세미나 : 《보잭 홀스맨》과 ‘할리우’(웹매거진 OFF)",
+        link: "https://off-magazine.net/TEXT/horseman.html",
     },
     {
         title: "월터 화이트와 헤어지기",
