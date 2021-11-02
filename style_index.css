@@ -91,10 +91,11 @@ input[type="button"]:hover{
                 sans-serif;   
 }
 
-#linkTwitter__Icon{
+#linkTwitter__Icon, #linkWordpress__Icon{
     margin-left: 20px;
+    margin-right: 20px;
 }
-#twitterIcon{
+#twitterIcon, #WordpressIcon{
     color:white;
 }
 #twitterIcon:hover{
