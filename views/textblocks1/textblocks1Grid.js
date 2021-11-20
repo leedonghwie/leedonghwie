@@ -34,12 +34,12 @@ const textblocksArray = [
         link: "https://donghwilee.com/14406",
     },
     {
-        title: "예술작품 개념과 ‘예술작품성’― ‘엉덩이’의 댓글에 답하기",
-        link: "https://donghwilee.com/14466",
-    },
-    {
         title: "예술이론의 이론: '예술이론성'과 언어(postype)",
         link: "https://leetunnel.postype.com/post/11047373",
+    },
+    {
+        title: "예술작품이라는 사적-해석적 존재: 한 가지 댓글에 답변하며(postype)",
+        link: "https://leetunnel.postype.com/post/11193649",
     },
 ];
 
