@@ -18,8 +18,8 @@ const textblocksArray = [
         link: "https://off-magazine.net/TEXT/horseman.html",
     },
     {
-        title: "월터 화이트와 헤어지기",
-        link: "https://donghwilee.com/12183",
+        title: "월터 화이트와 헤어지기(postype)",
+        link: "https://leetunnel.postype.com/post/11320741",
     },
     {
         title: "「체르노빌」: 한 가지 관찰과 해석",
