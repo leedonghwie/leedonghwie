@@ -6,59 +6,61 @@
     <title>donghwi lee</title>
     <link rel="stylesheet" href="style_index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <base target="_blank">
   </head>
 
   <body>
-        <h1>donghwi lee</h1>
-        <span id="indexGrid" style="width:auto; margin:auto;">
-          <div id="indexGrid__column">
-            <input type=button
-                      value=단락글(예술이론)
-                      onclick="location.href='./views/textblocks1/textblocks1.html'">
-            <input type=button
-                      value=단락글(기타)
-                      onclick="location.href='./views/textblocks2/textblocks2.html'">
-          </div>
-          
-          <div id="indexGrid__column">
-            <input type=button
-                    value=빠른일기2.0
-                    onclick="location.href='./views/pparn2.0/pparn2.0.html'">
-            <input type=button
-                  value=빠른일기(wp)
-                  onclick="location.href='http://www.donghwilee.com/category/pparn'">
-          </div>
-        </span>
+    <h1>이동휘(donghwi lee)</h1>
+    <div id="index_about" class="white_block">
+      <h2>about</h2>
+      <p>저는 이동휘입니다. 서울시 <a href="http://smart.gwanak.go.kr/">관악구</a>에 살고 있습니다. 여기저기에 단락글과 빠른일기를 씁니다. <br>My name is Lee Donghwi. I live in <a href="http://smart.gwanak.go.kr/">Gwanak-gu</a>, Seoul. I write texts and journals here and there.</p>
+      <p>요즘은 <a href="https://twitter.com/e_YeoRo/status/1431838494385532930">책을 쓰고</a>, <a href="https://twitter.com/leedonghwii/status/1471737808591388678">번역을</a> 하고 있습니다.<br>Currently working on <a href="https://twitter.com/e_YeoRo/status/1431838494385532930">a book</a> and <a href="https://twitter.com/leedonghwii/status/1471737808591388678">a translation</a>.</p>
 
-        <br>
-        <span>
-        <input type=button
-            id="blackmemoBtn" 
-            value='memo'
-            onclick="location.href='./views/blackmemo.html'">
-        </span>
-    </body>
-    <footer style="font-size:x-small; text-align:center; margin-top:60px">
-      <span id="copyrightMark" style="margin-right: 20px;">
-        &copy; 
-        <script>
-          document.write(new Date().getFullYear());
-        </script> donghwi LEE 
-      </span>
-      |
-      <span id="linkTwitter__Icon">
-        <a href="https://twitter.com/leedonghwii">
-          <i id="twitterIcon" class="fab fa-twitter"></i>
-        </a>
-      </span>
-      |
-      <span id="linkWordpress__Icon">
-        <a href="https://donghwilee.com/">
-          <i id="WordpressIcon" class="fab fa-wordpress"></i>
-        </a>
-      </span>
-         
-    </footer>
+      <p>반갑습니다~~<br>Enchante~~</p>
+    </div>
+    <div id="index_textblocks1">
+      <h2><a href="./views/textblocks1/textblocks1.html" target="_self">단락글1   (textblocks1)</a></h2>
+      <p>요새는 예술이론이라는 별 인기 없는 주제에 대해 쓰고 있습니다.<br> I wrote boring things on 'art theory' these days. 
+      </p>
+      <p>번역도 있다 참<br>Oh, one of them is translated ENG&rarr;KOR</p>
+    </div>
+    <div id="index_textblocks2" class="white_block">
+      <h2><a href="./views/textblocks2/textblocks2.html" target="_self">단락글2   (textblocks2)</a></h2>
+      <p>이런저런 영상, 책 등에 대해서도 글을 썼습니다.<br>Writings on videos, books, et cetera.</p>
+    </div>
+    <div id="index_pparn2.0">
+      <h2><a href="./views/pparn2.0/pparn2.0.html" target="_self">빠른 일기  (pparn)</a></h2>
+      <p>일기를 빨리 씀<br>journal written parly-parly</p>
+    </div>
+    <div id="index_others" class="white_block">
+      <h2>그 외의 장소(or elsewhere)</h2>
+        <a href="https://twitter.com/leedonghwii"><i id="twitterIcon" class="fab fa-twitter"></i></a><br>
+        <a href="https://leetunnel.postype.com/">postype</a><br>
+        <a href="https://blog.naver.com/moreundaenikan">네이버블로그(naverblog)</a><br>
+        <a href="https://donghwilee.com/"><i id="WordpressIcon" class="fab fa-wordpress"></i></a><br>
+        
+      <h2>아니면은 (or else-elsewhere)</h2>
+        <a href="https://colleague.co.kr/forum/view/523629"> 비평공유플랫폼 콜리그  (PLATFORM COLLEAGUE) </a><br>
+        <a href="https://off-magazine.net/TEXT/horseman.html">웹 매거진 off (off-magazine.net)</a><br>
+
+        
+
+    </div>    
+    <div>
+      <h2>특별한 감사를... (special thanks to...)</h2>
+      <p>슬과 순두부열네모아농담 <br>S + STBYNMAND</p>
+      <a href="https://opentutorials.org/course/1">생활코딩</a><br>
+      <a href="https://cactus.tistory.com/306">글꼴 프리텐다드</a><br>
+    </div>
+
+<footer style="font-size:x-small; text-align:center; margin-top:60px">
+  <span id="copyrightMark" style="margin-right: 20px;">
+    &copy; 2020 -
+    <script>
+      document.write(new Date().getFullYear());
+    </script> donghwi LEE
+  </span>
+</footer>
     <script>
       function cb(response) {
           document.getElementById('visits').innerText = response.value;
