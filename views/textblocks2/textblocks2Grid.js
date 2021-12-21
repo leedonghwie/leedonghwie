@@ -22,8 +22,8 @@ const textblocksArray = [
         link: "https://donghwilee.com/13091",
     },
     {
-        title: "Desire as D",
-        link: "https://donghwilee.com/13945",
+        title: "Desire as D (html)",
+        link: "../../text/textblocks2/Desire_as_D.html",
     },
     {
         title: "대상 없음: 현시원의 열한 페이지(colleague)",
