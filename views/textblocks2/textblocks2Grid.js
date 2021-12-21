@@ -47,7 +47,12 @@ function arrayPush(){
         const createA = document.createElement("a");
             createA.href=`${textblocksArray[i].link}`;
             createA.innerText=`${textblocksArray[i].title}`;
+        const result=textblocksArray[i].link.includes(".html");
+        if(result){
+            createA.target="_self";
+        }else{
             createA.target="_blank";
+        }           
         div.appendChild(createA);
         textblocksGrid.prepend(div);
         i=i+1;

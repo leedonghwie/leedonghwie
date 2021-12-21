@@ -29,14 +29,20 @@ const pparnArray = [
 
 function arrayPush(){
     i=0;
-    while(i<pparnArray.length){
-        console.log(pparnArray[i].title);
+    while(i<textblocksArray.length){
+        console.log(textblocksArray[i].title);
         const div=document.createElement("div");
         const createA = document.createElement("a");
-            createA.href=`${pparnArray[i].link}`;
-            createA.innerText=`${pparnArray[i].title}`;
+            createA.href=`${textblocksArray[i].link}`;
+            createA.innerText=`${textblocksArray[i].title}`;
+        const result=textblocksArray[i].link.includes(".html");
+        if(result){
+            createA.target="_self";
+        }else{
+            createA.target="_blank";
+        }           
         div.appendChild(createA);
-        pparnGrid.prepend(div);
+        textblocksGrid.prepend(div);
         i=i+1;
     };
 };
