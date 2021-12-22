@@ -25,24 +25,37 @@ const pparnArray = [
         title: "지금도 하고 있고 아마 겨울 동안 내내 할 것 같은 일들-번역, 세미나, 연구 (네이버블로그)",
         link: "https://blog.naver.com/moreundaenikan/222525728941",
     },
+    {
+        title: "11.7 (네이버블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222561442431",
+    },
+    {
+        title: "일기12.1 (네이버블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222583455655",
+    },
+    {
+        title: "12.17 (네이버블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222597475393",
+    },
+    
 ];
 
 function arrayPush(){
     i=0;
-    while(i<textblocksArray.length){
-        console.log(textblocksArray[i].title);
+    while(i<pparnArray.length){
+        console.log(pparnArray[i].title);
         const div=document.createElement("div");
         const createA = document.createElement("a");
-            createA.href=`${textblocksArray[i].link}`;
-            createA.innerText=`${textblocksArray[i].title}`;
-        const result=textblocksArray[i].link.includes(".html");
+            createA.href=`${pparnArray[i].link}`;
+            createA.innerText=`${pparnArray[i].title}`;
+        const result=pparnArray[i].link.includes(".html");
         if(result){
             createA.target="_self";
         }else{
             createA.target="_blank";
         }           
         div.appendChild(createA);
-        textblocksGrid.prepend(div);
+        pparnGrid.prepend(div);
         i=i+1;
     };
 };

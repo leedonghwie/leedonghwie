@@ -37,6 +37,10 @@ const textblocksArray = [
         title: "월터 화이트와 헤어지기(postype)",
         link: "https://leetunnel.postype.com/post/11320741",
     },
+    {
+        title: "파워 오브 도그 (네이버블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222589548744",
+    },
 ];
 
 function arrayPush(){
