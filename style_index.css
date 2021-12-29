@@ -18,13 +18,15 @@ h1 {
 }
 a {
     color: orange;
-    target:
 }
 
 div{
     padding-top: 2vh;
     padding-bottom: 7vh;
     padding-left: 2vw; 
+}
+.inner_div{
+    padding-bottom: 0vh;
 }
 
 .white_block{
