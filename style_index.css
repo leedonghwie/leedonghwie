@@ -9,6 +9,9 @@ h1 {
     padding:10px;
     font-weight: normal;
     }
+.h1_large{
+    font-size:x-large
+}
 @media(max-width: 510px){
     h1{
         text-align:left;
