@@ -4,6 +4,7 @@ html {
     background-color:rgb(41,41,41);
     color:white;
     font-family: Pretendard;
+    font-weight:lighter;
     }
 h1 {
     padding:10px;
@@ -29,6 +30,7 @@ div{
 }
 
 .white_block{
+    font-weight:normal;
     background-color: white;
     color: rgb(41,41,41);
 }
