@@ -37,7 +37,10 @@ const pparnArray = [
         title: "12.17 (네이버블로그)",
         link: "https://blog.naver.com/moreundaenikan/222597475393",
     },
-    
+    {
+        title: "01.08",
+        link: "../../text/pparn/220108.html",
+    },    
 ];
 
 function arrayPush(){
