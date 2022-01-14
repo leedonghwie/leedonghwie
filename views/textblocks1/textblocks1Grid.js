@@ -9,29 +9,29 @@ const textblocksArray = [
         title: "예술과 개념(html)",
         link: "../../text/textblocks1/art_and_concept.html",
     },
-    {
+    /*{
         title: "예술이론의 언어",
-        link: "https://donghwilee.com/13660",
+        link: "",
     },
     {
         title: "예술이론의 언어2: 언어를 선택함",
-        link: "https://donghwilee.com/13721",
+        link: "",
     },
     {
         title: "예술이론의 언어3/3: 사변의 검증",
-        link: "https://donghwilee.com/13751",
+        link: "",
     },
     {
         title: "예술이론의 순환성 (분석미학 비판?)",
-        link: "https://donghwilee.com/13826",
+        link: "",
     },
     {
         title: "먼지가 뭔지: 이다민의 ‘먼지란 무엇인가’에 또 부쳐",
-        link: "https://donghwilee.com/14380",
-    },
+        link: "",
+    },*/
     {
-        title: "[번역] 예술은 게임이다: 왜 중요한 건 애쓰는 일인가",
-        link: "https://donghwilee.com/14406",
+        title: "[번역] 예술은 게임이다: 왜 중요한 건 (예술을 갖고) 애를 써보는 것인가(html)",
+        link: "../../text/textblocks1/art_is_a_game.html",
     },
     {
         title: "예술이론의 이론: '예술이론성'과 언어(postype)",
