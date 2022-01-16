@@ -1,7 +1,7 @@
 const textblocksGrid=document.getElementById("textblocksGrid");
 
 const textblocksArray = [
-    {
+    /*{
         title: "‘층간소음’ 없는 방",
         link: "https://donghwilee.com/9275",
     },
@@ -12,7 +12,7 @@ const textblocksArray = [
     {
         title: "모두안녕...zzz",
         link: "https://donghwilee.com/10417",
-    },
+    },*/
     {
         title: "도둑 맞은 ‘D’에 관한 세미나 : 《보잭 홀스맨》과 ‘할리우’(웹매거진 OFF)",
         link: "https://off-magazine.net/TEXT/horseman",
