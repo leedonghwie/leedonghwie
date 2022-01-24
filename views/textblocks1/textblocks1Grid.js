@@ -30,7 +30,7 @@ const textblocksArray = [
         link: "",
     },*/
     {
-        title: "[번역] 예술은 게임이다: 왜 중요한 건 (예술을 갖고) 애를 써보는 것인가(html)",
+        title: "[번역] 예술은 게임이다: 왜 중요한 건 (예술과의) 고투인가 (html)",
         link: "../../text/textblocks1/art_is_a_game.html",
     },
     {
