@@ -41,6 +41,11 @@ const textblocksArray = [
         title: "파워 오브 도그 (네이버블로그)",
         link: "https://blog.naver.com/moreundaenikan/222589548744",
     },
+    {
+        title: "『분더카머』 어려움 (읽기-어려움) (네이버블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222635223236",
+
+    },
 ];
 
 function arrayPush(){
