@@ -17,10 +17,10 @@ const textblocksArray = [
         title: "도둑 맞은 ‘D’에 관한 세미나 : 《보잭 홀스맨》과 ‘할리우’(웹매거진 OFF)",
         link: "https://off-magazine.net/TEXT/horseman",
     },
-    {
+    /*{
         title: "「체르노빌」: 한 가지 관찰과 해석",
         link: "https://donghwilee.com/13091",
-    },
+    },*/
     {
         title: "Desire as D (html)",
         link: "../../text/textblocks2/Desire_as_D.html",
