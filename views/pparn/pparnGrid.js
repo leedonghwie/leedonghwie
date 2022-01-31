@@ -38,9 +38,13 @@ const pparnArray = [
         link: "https://blog.naver.com/moreundaenikan/222597475393",
     },
     {
-        title: "01.08",
+        title: "1. 8.",
         link: "../../text/pparn/220108.html",
-    },    
+    },
+    {
+        title: "1. 31.",
+        link: "../../text/pparn/220131.html",
+    },
 ];
 
 function arrayPush(){
