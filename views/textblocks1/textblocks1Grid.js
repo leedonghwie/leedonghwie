@@ -28,11 +28,11 @@ const textblocksArray = [
     {
         title: "먼지가 뭔지: 이다민의 ‘먼지란 무엇인가’에 또 부쳐",
         link: "",
-    },*/
+    },
     {
         title: "[번역] 예술은 게임이다: 왜 중요한 건 (예술과의) 고투인가 (html)",
         link: "../../text/textblocks1/art_is_a_game.html",
-    },
+    },*/
     {
         title: "예술이론의 이론: '예술이론성'과 언어(postype)",
         link: "https://leetunnel.postype.com/post/11047373",
