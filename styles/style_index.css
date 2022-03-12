@@ -1,6 +1,8 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
 body {
+    width:102vw;
+    margin-left:-5px;
     background-color:rgb(41,41,41);
     color:white;
     font-family: Pretendard;
@@ -54,7 +56,6 @@ li ul li{
 }
 
 .white_block{
-    margin-right:-10px;
     font-weight:normal;
     background-color: white;
     color: rgb(41,41,41);
