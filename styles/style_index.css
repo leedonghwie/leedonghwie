@@ -1,6 +1,6 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
 
-html {
+body {
     background-color:rgb(41,41,41);
     color:white;
     font-family: Pretendard;
@@ -13,12 +13,13 @@ h1 {
 @media(max-width: 510px){
     h3{
         margin-top:0; 
-        margin-bottom:0;
+        
     }
 }
 a{
     color:sandybrown;
 }
+
 div{
     padding-top: 2vh;
     height:fit-content;
@@ -53,6 +54,7 @@ li ul li{
 }
 
 .white_block{
+    margin-right:-10px;
     font-weight:normal;
     background-color: white;
     color: rgb(41,41,41);
