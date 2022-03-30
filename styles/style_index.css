@@ -63,9 +63,12 @@ li ul li{
     color: rgb(41,41,41);
 }
 
-#twitterIcon, #WordpressIcon{
+#twitterIcon{
     color:inherit;
 }
-#twitterIcon:hover, #WordpressIcon:hover{
+#twitterIcon:hover, #naverIcon:hover{
     color:#1d9bf0;
 }
+#naverIcon{
+}
+

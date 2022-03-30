@@ -44,8 +44,11 @@ const textblocksArray = [
     {
         title: "『분더카머』 어려움 (읽기-어려움) (네이버블로그)",
         link: "https://blog.naver.com/moreundaenikan/222635223236",
-
     },
+    {
+        title: "[번역] You see (너는 시 /최재원)(chogwa.com)",
+        link: "../../text/textblocks2/You_see_chogwa.html",
+    }
 ];
 
 function arrayPush(){
