@@ -48,7 +48,19 @@ const textblocksArray = [
     {
         title: "[번역] You see (너는 시 /최재원)(chogwa.com)",
         link: "../../text/textblocks2/You_see_chogwa.html",
-    }
+    },
+    {
+        title: "[단락이없는글] 물은 생각했다 (postype)",
+        link: "https://posty.pe/sos67w",
+    },
+    {
+        title: "[단락이없는글] 신분증 (postype)",
+        link: "https://posty.pe/277fsk",
+    },
+    {
+        title: "[단락이없는글] 시가바 (postype)",
+        link: "https://posty.pe/dk2m67",
+    },
 ];
 
 function arrayPush(){
