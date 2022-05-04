@@ -1,0 +1,48 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+html {
+    background-color:rgb(41,41,41);
+    color:white;
+    font-family: Pretendard;
+    font-weight:lighter;
+    }
+body {
+  max-width:600px;
+    margin: 0 auto;
+}
+h1{
+  text-align:center; font-size: 30px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: normal;
+}
+h4{
+  text-align:right;
+}
+h2{
+  margin-top:60px;
+}
+article{
+  font-size: 18px;
+  line-height: 200%;
+}
+p{
+  margin-bottom: 15px;
+}
+a{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:sandybrown;
+    }
+@media(max-width: 510px){
+    h1{
+    text-align:left; font-size: 30px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: normal;
+    }
+}
+input[type="button"]{
+    display:flex; 
+    justify-content: left;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size:smaller;
+    font-weight:300;
+}
+input[type="button"]:hover{
+  background-color:darkslategray;
+}

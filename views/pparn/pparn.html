@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LE8HGW2C20"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LE8HGW2C20');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../../styles/style_pparn.css">
+  </head>
+  <body>
+    <header>
+      <span>
+        <input type=button
+                value=home
+                onclick="location.href='../../index.html'">
+      </span>
+      <span id="current_MMDD_HHMM">00-00 00:00</span>
+    </header>
+    <h1>빠른일기</h1>
+    <span id="pparnGrid"></span>
+  </body>
+  <script>
+    const title_h1 = document.getElementsByTagName("h1")[0];
+    document.title = title_h1.innerText;
+  </script>
+  <footer style="font-size:x-small; text-align:center; margin-top:60px">
+    &copy;
+    <script>
+      document.write(new Date().getFullYear());
+    </script> donghwi LEE
+  </footer>
+  <script src="./CalendarClock.js"></script>
+  <script src="./pparnGrid.js"></script>
+</html>

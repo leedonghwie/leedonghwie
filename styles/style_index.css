@@ -1,0 +1,74 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+body {
+    width:102vw;
+    margin-left:-5px;
+    background-color:rgb(41,41,41);
+    color:white;
+    font-family: Pretendard;
+    font-weight:lighter;
+    }
+h1 {
+    padding:10px;
+    font-weight: normal;
+    }
+@media(max-width: 510px){
+    h3{
+        margin-top:0; 
+    }
+    #h3_thanks{
+        margin-top:20px;
+    }
+}
+a{
+    color:sandybrown;
+}
+
+div{
+    padding-top: 2vh;
+    height:fit-content;
+    padding-bottom: 10px;
+    padding-left: 2vw;
+}
+li{
+    padding-bottom: 7.5px;
+}
+ol, ul{
+    margin-top: 0;
+}
+ul li p{
+    margin:0;
+    padding-left:20px;
+}
+li ul li{
+    padding-bottom:0;
+}
+.inline-ul{
+    margin:0;
+    padding-top:0; 
+    padding-left:40px;
+}
+.inline-ul li{
+    display:inline;
+    margin-right:10px;
+}
+
+.inner_div{
+    padding-bottom: 0vh;
+}
+
+.white_block{
+    font-weight:normal;
+    background-color: white;
+    color: rgb(41,41,41);
+}
+
+#twitterIcon{
+    color:inherit;
+}
+#twitterIcon:hover, #naverIcon:hover{
+    color:#1d9bf0;
+}
+#naverIcon{
+}
+
