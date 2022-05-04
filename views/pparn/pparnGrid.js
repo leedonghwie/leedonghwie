@@ -45,6 +45,14 @@ const pparnArray = [
         title: "1. 31.",
         link: "../../text/pparn/220131.html",
     },
+    {
+        title: "3.13 (네이버블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222671712649"
+    },
+    {
+        title: "마음의 상처 (네이버블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222689309340",
+    },
 ];
 
 function arrayPush(){
