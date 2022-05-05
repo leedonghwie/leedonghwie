@@ -53,6 +53,10 @@ const pparnArray = [
         title: "마음의 상처 (네이버블로그)",
         link: "https://blog.naver.com/moreundaenikan/222689309340",
     },
+    {
+        title: "5. 5.",
+        link: "../../text/pparn/220505.html",
+    },
 ];
 
 function arrayPush(){
