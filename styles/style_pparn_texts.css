@@ -12,9 +12,6 @@ body {
 h1, h2, h3, h4{
   font-weight:lighter;
 }
-h1{
-  text-align:center; font-size: 30px;
-}
 h4{
   text-align:right;
 }
@@ -32,11 +29,7 @@ a{
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       color:sandybrown;
     }
-@media(max-width: 510px){
-    h1{
-    text-align:left; font-size: 30px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: normal;
-    }
-}
+    
 input[type="button"]{
     display:flex; 
     justify-content: left;
