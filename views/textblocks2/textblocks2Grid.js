@@ -61,6 +61,10 @@ const textblocksArray = [
         title: "[단락이없는글] 시가바 (postype)",
         link: "https://posty.pe/dk2m67",
     },
+    {
+        title: "[단락이없는글] 주석 (postype)",
+        link: "https://posty.pe/29r9le",
+    },
 ];
 
 function arrayPush(){
