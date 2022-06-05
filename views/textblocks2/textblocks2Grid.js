@@ -65,6 +65,10 @@ const textblocksArray = [
         title: "[단락이없는글] 주석 (postype)",
         link: "https://posty.pe/29r9le",
     },
+    {
+        title: "하양지 [안녕이 오고 있어](작성 중)",
+        link: "../../text/textblocks2/hayang_ji.html",
+    },
 ];
 
 function arrayPush(){
