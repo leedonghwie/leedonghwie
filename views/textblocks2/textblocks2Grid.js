@@ -14,7 +14,11 @@ const textblocksArray = [
         link: "https://donghwilee.com/10417",
     },*/
     {
-        title: "도둑 맞은 ‘D’에 관한 세미나 : 《보잭 홀스맨》과 ‘할리우’(웹매거진 OFF)",
+        title: "아도르노 반유대주의론의 감정적 토대(미학)",
+        link: "https://aesthetics.jams.or.kr/po/volisse/sjPubsArtiPopView.kci?soceId=INS000001331&artiId=SJ0000000832&sereId=SER000000001&submCnt=2",
+    },
+    {
+        title: "도둑 맞은 D에 관한 세미나 : 보잭 홀스맨과 할리우(웹매거진 OFF)",
         link: "https://off-magazine.net/TEXT/horseman",
     },
     /*{
@@ -30,7 +34,7 @@ const textblocksArray = [
         link: "https://colleague.co.kr/forum/view/523629",
     },
     {
-        title: "루이ck, <sincerely>(html)",
+        title: "루이ck, sincerely (html)",
         link: "../../text/textblocks2/louis_ck.html",
     },
     {
