@@ -18,7 +18,7 @@ const textblocksArray = [
         link: "https://leetunnel.postype.com/post/11047373",
     },
     {
-        title: "예술은 사적이다: 한 가지 댓글에 답변하며(postype)",
+        title: "예술은 사적이다: 한 가지 댓글에 답변하며(책에 수록됨)",
         link: "https://leetunnel.postype.com/post/11193649",
     },
 ];
