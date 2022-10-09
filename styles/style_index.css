@@ -72,3 +72,8 @@ li ul li{
 #naverIcon{
 }
 
+button div{
+    padding:0; 
+    margin:0; 
+    margin-right:10vw;
+}
