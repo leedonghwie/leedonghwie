@@ -79,3 +79,7 @@ button div{
     margin:0; 
     margin-right:10vw;
 }
+
+div.content {
+    padding-left:0;
+}
