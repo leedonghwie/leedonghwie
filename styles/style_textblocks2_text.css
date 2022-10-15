@@ -1,12 +1,16 @@
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+/*@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');*/
+@font-face {
+  font-family: 'Chilgok_Kaj';
+  src: url(../font/Chilgok_Kaj.ttf) format("truetype");
+}
+
 
 html {
     max-width:600px;
     margin: 0 auto;
     background-color:rgb(41,41,41);
     color:white;
-    font-family: Pretendard;
-    font-weight:lighter;
+    font-family: 'Chilgok_Kaj';
     }
 h1, h2, h3, h4{
   font-weight:lighter;
