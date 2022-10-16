@@ -42,11 +42,11 @@ const textblocksArray = [
         link: "https://leetunnel.postype.com/post/11320741",
     },
     {
-        title: "파워 오브 도그 (네이버블로그)",
+        title: "파워 오브 도그 (네이버 블로그)",
         link: "https://blog.naver.com/moreundaenikan/222589548744",
     },
     {
-        title: "『분더카머』 어려움 (읽기-어려움) (네이버블로그)",
+        title: "『분더카머』 어려움 (읽기-어려움) (네이버 블로그)",
         link: "https://blog.naver.com/moreundaenikan/222635223236",
     },
     {
@@ -72,6 +72,14 @@ const textblocksArray = [
     {
         title: "하양지 [안녕이 오고 있어](작성 중)",
         link: "../../text/textblocks2/hayang_ji.html",
+    },
+    {
+        title: "마음의 상처 (네이버 블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222689309340",
+    },
+    {
+        title: "이동진 욕하기 (네이버 블로그)",
+        link: "https://blog.naver.com/moreundaenikan/222689309340",
     },
 ];
 
