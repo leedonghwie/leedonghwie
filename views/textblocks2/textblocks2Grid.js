@@ -79,7 +79,7 @@ const textblocksArray = [
     },
     {
         title: "이동진 욕하기 (네이버 블로그)",
-        link: "https://blog.naver.com/moreundaenikan/222689309340",
+        link: "https://blog.naver.com/moreundaenikan/222894319579",
     },
 ];
 
