@@ -43,11 +43,11 @@ const textblocksArray = [
     },
     {
         title: "파워 오브 도그 (네이버 블로그)",
-        link: "https://blog.naver.com/moreundaenikan/222589548744",
+        link: "https://blog.naver.com/mollumbo/222589548744",
     },
     {
         title: "『분더카머』 어려움 (읽기-어려움) (네이버 블로그)",
-        link: "https://blog.naver.com/moreundaenikan/222635223236",
+        link: "https://blog.naver.com/mollumbo/222635223236",
     },
     {
         title: "[번역] You see (너는 시 /최재원)(chogwa.com)",
@@ -75,11 +75,11 @@ const textblocksArray = [
     },
     {
         title: "마음의 상처 (네이버 블로그)",
-        link: "https://blog.naver.com/moreundaenikan/222689309340",
+        link: "https://blog.naver.com/mollumbo/222689309340",
     },
     {
         title: "이동진 욕하기 (네이버 블로그)",
-        link: "https://blog.naver.com/moreundaenikan/222894319579",
+        link: "https://blog.naver.com/mollumbo/222894319579",
     },
 ];
 
