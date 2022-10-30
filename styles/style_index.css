@@ -37,6 +37,7 @@ div{
 }
 li{
     padding-bottom: 7.5px;
+    margin-right: 10px;
 }
 ol, ul{
     margin-top: 0;
@@ -47,6 +48,8 @@ ul li p{
 }
 li ul li{
     padding-bottom:0;
+    margin-right:10px;
+    font-size:0.8em;
 }
 .inline-ul{
     margin:0;
@@ -85,4 +88,5 @@ button div{
 
 div.content {
     padding-left:0;
+    margin-right:3px;
 }
