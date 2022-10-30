@@ -50,6 +50,7 @@ li ul li{
     padding-bottom:0;
     margin-right:10px;
     font-size:0.8em;
+    list-style-type: none;
 }
 .inline-ul{
     margin:0;
