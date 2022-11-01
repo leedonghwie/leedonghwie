@@ -87,3 +87,8 @@ div.content {
 .elsewhere li{
     padding-bottom: 0;
 }
+
+.book-cover {
+    width: 100%;
+    max-width: 400px;
+}
