@@ -24,7 +24,11 @@ const textblocksArray = [
     {
         title: "사진작가 하태우와의 대화: 하태우가 『시급하지만 인기는 없는 문제: 예술·언어·이론』 속 이동휘의 글에 대해 보충 설명을 요구함",
         link: "../../text/Talk_with_Haboksun.html",
-    }
+    },
+    {
+        title: "11.1 (배열 n)",
+        link: "https://blog.naver.com/mollumbo/222917063130",
+    },
 ];
 
 function arrayPush(){

@@ -1,21 +1,18 @@
-/*@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');*/
-@font-face {
-    font-family: 'Chilgok_Kaj';
-    src: url(../font/Chilgok_Kaj.ttf) format("truetype");
-}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
 
 body {
     width:102vw;
     margin-left:-5px;
     background-color:rgb(41,41,41);
     color:white;
-    font-family: 'Chilgok_Kaj';
+    font-family: 'Pretendard';
+    font-weight:lighter;
     font-size:1.8em;
 }
-    
+
 h1 {
     padding:10px;
-    font-weight: normal;
     }
 @media(max-width: 510px){
     h3{
@@ -38,6 +35,7 @@ div{
 li{
     padding-bottom: 7.5px;
     margin-right: 10px;
+    font-weight:lighter;
 }
 ol, ul{
     margin-top: 0;
@@ -72,15 +70,6 @@ li ul li{
     color: rgb(41,41,41);
 }
 
-#twitterIcon{
-    color:inherit;
-}
-#twitterIcon:hover, #naverIcon:hover{
-    color:#1d9bf0;
-}
-#naverIcon{
-}
-
 button div{
     padding:0; 
     margin:0; 
@@ -92,7 +81,7 @@ div.content {
     margin-right:3px;
 }
 .elsewhere{
-    font-size: 0.5em;
+    font-size: 0.7em;
     list-style-type: none;
 }
 .elsewhere li{
