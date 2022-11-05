@@ -27,7 +27,7 @@ const textblocksArray = [
     },*/
     {
         title: "Desire as D (html)",
-        link: "../../text/textblocks2/Desire_as_D.html",
+        link: "../../text/Desire_as_D.html",
     },
     {
         title: "대상 없음: 현시원의 열한 페이지(colleague)",
@@ -35,7 +35,7 @@ const textblocksArray = [
     },
     {
         title: "루이ck, sincerely (html)",
-        link: "../../text/textblocks2/louis_ck.html",
+        link: "../../text/louis_ck.html",
     },
     {
         title: "월터 화이트와 헤어지기(postype)",
@@ -51,7 +51,7 @@ const textblocksArray = [
     },
     {
         title: "[번역] You see (너는 시 /최재원)(chogwa.com)",
-        link: "../../text/textblocks2/You_see_chogwa.html",
+        link: "../../text/You_see_chogwa.html",
     },
     {
         title: "[단락이없는글] 물은 생각했다 (postype)",
@@ -70,8 +70,8 @@ const textblocksArray = [
         link: "https://posty.pe/29r9le",
     },
     {
-        title: "하양지 [안녕이 오고 있어](작성 중)",
-        link: "../../text/textblocks2/hayang_ji.html",
+        title: "하양지 [안녕이 오고 있어](노트)(html)",
+        link: "../../text/hayang_ji.html",
     },
     {
         title: "마음의 상처 (네이버 블로그)",
