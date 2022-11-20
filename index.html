@@ -30,7 +30,8 @@
         <li style="font-size:0.8em">🎧<a href="https://link.steadio.co/5OXSEX5Rfub">'웹사이트 보면서 자기소개'(스테디오)↗</a></li>
         <!--<li><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4ZNHIhaM4vvyZLYKAbFDb3iRAFhCEhmuFepNACLMwjsJoDe7OMbFuiEdyz_vscuNuRQrKUtzB_B62/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A:B&amp;chrome=false" style="width:350px; height:200px"></iframe></li>-->
         <li>
-          <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4ZNHIhaM4vvyZLYKAbFDb3iRAFhCEhmuFepNACLMwjsJoDe7OMbFuiEdyz_vscuNuRQrKUtzB_B62/pubhtml?gid=1974193154&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A:B&amp;chrome=false" style="width:350px; height:200px;"></iframe>
+          <iframe id="economic-memos" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4ZNHIhaM4vvyZLYKAbFDb3iRAFhCEhmuFepNACLMwjsJoDe7OMbFuiEdyz_vscuNuRQrKUtzB_B62/pubhtml?gid=1974193154&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A:B&amp;chrome=false" style="width:350px; height:200px;"></iframe>
+          <button onclick="myRefresh()">⟳</button>
         </li>
       </ul>
 
@@ -110,6 +111,13 @@
     
 <footer style="position:static; text-align:center; padding-top:10px; font-size:x-small;">
   <script src="./js/collapsible.js"></script>
+  <script>
+    setInterval(
+    function myRefresh() {
+      document.getElementById("economic-memos").src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4ZNHIhaM4vvyZLYKAbFDb3iRAFhCEhmuFepNACLMwjsJoDe7OMbFuiEdyz_vscuNuRQrKUtzB_B62/pubhtml?gid=1974193154&amp;single=true&amp;widget=true&amp;headers=false&amp;range=A:B&amp;chrome=false";
+      }
+    );
+    </script>
   <span id="copyrightMark" style="margin-right: 20px;">
     &copy; 2020 -
     <script>
