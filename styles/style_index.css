@@ -92,3 +92,7 @@ div.content {
     width: 100%;
     max-width: 400px;
 }
+
+.collapsible button div ul li {
+    font-weight:bold;
+}
