@@ -52,6 +52,7 @@ div{
 
 .book_info{
     font-size:17px;
+    font-weight:medium;
     border: none;
     display:inline-block;
     margin-left: 60px;
@@ -64,6 +65,7 @@ div.content {
     padding-left:0;
     margin-right:3px;
     font-size:smaller
+    font-weight:medium;
 }
 
 .content ul{
