@@ -10,7 +10,10 @@ body {
     font-weight:lighter;
     font-size:1.8em;
 }
-
+article{
+    width: 50%;
+    margin: auto;
+}
 h1 {
     padding:10px;
     }
