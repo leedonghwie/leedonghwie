@@ -16,19 +16,21 @@ article{
 }
 h1 {
     padding:10px;
-    }
-@media(max-width: 510px){
-    article{
-        width:100%;
-        margin:0;
-    }
-    h3{
-        margin-top:0; 
-    }
-    #h3_thanks{
-        margin-top:20px;
-    }
 }
+    @media(max-width: 900px){
+        article{
+            width:100%;
+            margin:0;
+        }
+    }
+    @media(max-width: 510px){
+        h3{
+            margin-top:0; 
+        }
+        #h3_thanks{
+            margin-top:20px;
+        }
+    }   
 a{
     color:sandybrown;
 }
