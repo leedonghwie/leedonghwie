@@ -18,6 +18,10 @@ h1 {
     padding:10px;
     }
 @media(max-width: 510px){
+    article{
+        width:100%;
+        margin:0;
+    }
     h3{
         margin-top:0; 
     }
