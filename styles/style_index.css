@@ -148,34 +148,24 @@ button div{
     font-weight:bold;
 }
 
-#logo_and_quote{
-    position:relative;
-    min-height:150px;
-}
 
-#logo{
-    display:inline;
-    position:absolute;
-} 
 #logo figure{
     margin:0;
 }
 
 #quote{
-    margin-left: 120px;
-    display:inline-block;
-    width:70%;
+    width:90%;
     overflow-wrap: break-word;
 }
+
 #quote_text{
-    display:inline;
     padding-bottom:20;
     padding:0;
     width:90%;
     font-size: 12px;
-    line-height:12px;
+    line-height:18px;
 }
 #quote_title{
-    font-size:10px;
+    font-size:12px;
     margin-left:0;
 }
