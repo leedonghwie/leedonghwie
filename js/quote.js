@@ -47,7 +47,6 @@ const quoteArray = [
 
 function arrayPush(){
     i=Math.floor(Math.random(quoteArray.length)*quoteArray.length);
-    console.log(Math.random(quoteArray.length)*quoteArray.length);
     quote_text.innerText=`${quoteArray[i].text}`;
     const link = document.createElement('a'); 
     link.href=`${quoteArray[i].link}`;
