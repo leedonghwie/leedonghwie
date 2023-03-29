@@ -63,6 +63,21 @@ const quoteArray = [
         title:"3.23",
         link:"https://blog.naver.com/mollumbo/223053666674",
     },
+    {
+        text:"그러니까'striving'은 분투, 'struggle'은 고투가 됩니다. 좀 낡거나 특수하게 느껴지는 단어이긴 하지만, 단행본을 옮기며 struggle의 명사 용법에 깔끔하게 대응할 번역어가 필요하다고 생각하여 부득이하게 선택했습니다. 이를 포함하여 번역 제안이 있으시면 감사히 듣겠습니다. (페이지 하단에 '제안 보내기'란을 만들어놓았습니다.) \n\n 이 번역문의 공개를 허락해주신 C. 티 응우옌 교수님께 감사드립니다.",
+        title:"[번역] 예술은 게임이다: 왜 중요한 건 (예술과의) 고투인가",
+        link:"https://economic-writings.xyz/text/textblocks1/art_is_a_game.html",
+    },
+    {
+        text:"이를 살펴본 이유는, 작품(그리고 작업work) 개념이 언어를 매개로 하는 생산자들 사이에서 이렇게까지 적대시되는 줄을 최근에서야 알았기 때문이다. 이 적대의 이유는 말하는 이들마다 조금씩 다른데, 누구는 개별 작품이 내재적인 완결성을 전제하고 사람들로 하여금 그것이 ‘좋기 때문에 좋다’고 떠들며 그 가치를 동어반복적으로 ‘선취’하게끔 (유혹?)하기 때문이라 하고, 누구는 그것이 사회경제적 환경과 단절된 순수성을 과장하기 때문이라 한다.",
+        title:"작품의 죽음",
+        link:"https://economic-writings.xyz/text/death_of_artwork.html",
+    },
+    {
+        text:"You see \n/ Jaewon Che\ntranslated by donghwi lee\n\nI vapor away again\nunknowingly a poem,\nI slowly for you to\n\nsee\n\na work only quick but rashest\nmostly by who reads\nEat\nthis fresh bread I bake and\n\nsee\n\nmy piece\nwould you\ntoday\n\n(from what you wan do wit me?, Minumsa, 2021)",
+        title:"너는 시",
+        link:"https://economic-writings.xyz/text/You_see_chogwa.html",
+    },
 
 ];
 
