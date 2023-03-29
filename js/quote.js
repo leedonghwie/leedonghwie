@@ -113,6 +113,11 @@ const quoteArray = [
         title: "도둑 맞은 ‘D’에 관한 세미나 : 《보잭 홀스맨》과 ‘할리우’",
         link: "https://off-magazine.net/TEXT/horseman.html",
     },
+    {
+        text:"네.. 게임 잘 안해요... 저도... 어... 네 좋지 않다고 생각합니다. (책으로만 공부하시는군요?) 네 그렇죠... 책벌레입니다...",
+        title:"국악방송 2023-01-30(월) 문화시대 * 월요초대석 : <게임: 행위성의 예술>",
+        link:"https://www.podbbang.com/channels/1786347/episodes/24617407",
+    }
 ];
 
 function arrayPush(){
