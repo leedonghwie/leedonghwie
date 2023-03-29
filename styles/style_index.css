@@ -17,18 +17,14 @@ article{
 h1 {
     padding:10px;
 }
+h3{
+    margin-top:0;
+    margin-bottom:10px;
+}
     @media(max-width: 900px){
         article{
             width:100%;
             margin:0;
-        }
-    }
-    @media(max-width: 510px){
-        h3{
-            margin-top:0; 
-        }
-        #h3_thanks{
-            margin-top:20px;
         }
     }   
 a{
@@ -208,4 +204,19 @@ button div{
       to {
           opacity: 1;
       }
+  }
+
+  .contact { 
+      padding:0;
+  }
+  .contact_email{
+      font-size:18px;
+      padding:0;
+      font-weight:lighter;
+      margin-bottom:10px;
+  }
+  .contact_sns {
+      display:inline-block;
+      font-size:18px;
+      padding:0;
   }
