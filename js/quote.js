@@ -108,6 +108,11 @@ const quoteArray = [
         title: "『시급하지만 인기는 없는 문제: 예술, 언어, 이론』",
         link: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=298349119",
     },
+    {
+        text: "하지만 아무래도 ‘할리우’의 가장 큰 특징은 글자 그대로 ‘D가 없다’는 점이다. ‘할리우’를 이해하려 할 때 우리는 외면할 수 없다. ‘D’라는 도둑맞은 글자(the purloined letter)를 말이다.",
+        title: "도둑 맞은 ‘D’에 관한 세미나 : 《보잭 홀스맨》과 ‘할리우’",
+        link: "https://off-magazine.net/TEXT/horseman.html",
+    },
 ];
 
 function arrayPush(){
