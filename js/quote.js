@@ -65,7 +65,7 @@ const quoteArray = [
     },
     {
         text:"그러니까'striving'은 분투, 'struggle'은 고투가 됩니다. 좀 낡거나 특수하게 느껴지는 단어이긴 하지만, 단행본을 옮기며 struggle의 명사 용법에 깔끔하게 대응할 번역어가 필요하다고 생각하여 부득이하게 선택했습니다. 이를 포함하여 번역 제안이 있으시면 감사히 듣겠습니다. (페이지 하단에 '제안 보내기'란을 만들어놓았습니다.) \n\n 이 번역문의 공개를 허락해주신 C. 티 응우옌 교수님께 감사드립니다.",
-        title:"[번역] 예술은 게임이다: 왜 중요한 건 (예술과의) 고투인가",
+        title:"예술은 게임이다: 왜 중요한 건 (예술과의) 고투인가",
         link:"https://economic-writings.xyz/text/textblocks1/art_is_a_game.html",
     },
     {
@@ -110,7 +110,7 @@ function arrayPush(){
     quote_text.innerText=`${quoteArray[i].text}`;
     const link = document.createElement('a'); 
     link.href=`${quoteArray[i].link}`;
-    link.innerText=`${quoteArray[i].title}`;
+    link.innerText="["+`${i+1}`+"/"+quoteArray.length+"] "+`${quoteArray[i].title}`;
     quote_title.appendChild(link);
 }
 arrayPush();
