@@ -107,10 +107,11 @@ const quoteArray = [
 
 function arrayPush(){
     i=Math.floor(Math.random(quoteArray.length)*quoteArray.length);
-    quote_text.innerText=`${quoteArray[i].text}`;
+    quote_text.innerText=`[${i + 1}/${quoteArray.length}]\n${quoteArray[i].text}`;
+
     const link = document.createElement('a'); 
     link.href=`${quoteArray[i].link}`;
-    link.innerText="["+`${i+1}`+"/"+quoteArray.length+"] "+`${quoteArray[i].title}`;
+    link.innerText=`${quoteArray[i].title}`;
     quote_title.appendChild(link);
 }
 arrayPush();
