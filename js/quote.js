@@ -103,15 +103,20 @@ const quoteArray = [
         title: "10.12",
         link: "https://blog.naver.com/mollumbo/222898505659",
     },
+    {
+        text: "말하자면 예술이론은 경험주의, 즉 이론가의 경험이 곧 독자의 지식이 되는 당연한 메커니즘이 정지하는 이론의 망명지이고, '예술이론은 어렵다'라는 말의 의미가 바로 이것이다. 그러면 예술이론성의 척도는 어디서 찾아야 하나? 바로 언어이다. 예술이론은 이론이기 이전에 '말'이고 '글'이다. 나는 예술이론성의 척도가 예술이론의 내용이 아니라 언어에 있다고 제안한다.",
+        title: "『시급하지만 인기는 없는 문제: 예술, 언어, 이론』",
+        link: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=298349119",
+    },
 ];
 
 function arrayPush(){
     i=Math.floor(Math.random(quoteArray.length)*quoteArray.length);
-    quote_text.innerText=`[${i + 1}/${quoteArray.length}]\n${quoteArray[i].text}`;
-
+    quote_text.innerText=`${quoteArray[i].text}`;
     const link = document.createElement('a'); 
     link.href=`${quoteArray[i].link}`;
     link.innerText=`${quoteArray[i].title}`;
     quote_title.appendChild(link);
+    console.log((i+1)+"/"+quoteArray.length);
 }
 arrayPush();
