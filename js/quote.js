@@ -125,7 +125,7 @@ const quoteArray = [
     },
     {
         text:"▷/6.\n개념에 형태를 귀속시켜 개념을 ‘표현’하려는 시도는 개념을 오해하고 있는 것인지도 모르겠다.",
-        title:"Desire as D\n워크숍 《들뢰즈에 대한 것은 아닌》 ‘D for Desire’에 들고간 글",
+        title:"Desire as D\n(워크숍 《들뢰즈에 대한 것은 아닌》 ‘D for Desire’에서)",
         link:"https://economic-writings.xyz/text/Desire_as_D.html",
     },
     {
