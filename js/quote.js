@@ -128,6 +128,11 @@ const quoteArray = [
         title:"Desire as D\n워크숍 《들뢰즈에 대한 것은 아닌》 ‘D for Desire’에 들고간 글",
         link:"https://economic-writings.xyz/text/Desire_as_D.html",
     },
+    {
+        text:"물은 생각했다\n\n얼어가면서\n\n아\n나는\n\n흐를\n수\n있\n\n\t었\n구나!",
+        title:"물은 생각했다",
+        link:"https://leetunnel.postype.com/post/12271801",
+    },
 ];
 
 function arrayPush(){
