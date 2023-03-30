@@ -69,7 +69,7 @@ const quoteArray = [
         link:"https://economic-writings.xyz/text/death_of_artwork.html",
     },
     {
-        text:"You see \n/ Jaewon Che\ntranslated by donghwi lee\n\nI vapor away again\nunknowingly a poem,\nI slowly for you to\n\nsee\n\na work only quick but rashest\nmostly by who reads\nEat\nthis fresh bread I bake and\n\nsee\n\nmy piece\nwould you\ntoday\n\n(from what you wan do wit me?, Minumsa, 2021)",
+        text:"You see \nby Jaewon Che\ntr. donghwi lee\n\nI vapor away again\nunknowingly a poem,\nI slowly for you to\n\nsee\n\na work only quick but rashest\nmostly by who reads\nEat\nthis fresh bread I bake and\n\nsee\n\nmy piece\nwould you\ntoday\n\n(from what you wan do wit me?, Minumsa, 2021)",
         title:"너는 시",
         link:"https://economic-writings.xyz/text/You_see_chogwa.html",
     },
