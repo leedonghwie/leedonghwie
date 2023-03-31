@@ -156,3 +156,4 @@ function arrayPush(){
     console.log((i+1)+"/"+quoteArray.length);
 }
 arrayPush();
+

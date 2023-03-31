@@ -142,6 +142,7 @@ button div{
 #quote{
     width:90%;
     overflow-wrap: break-word;
+    padding-bottom:0;
 }
 
 #quote_text{
@@ -155,6 +156,18 @@ button div{
     font-size:14px;
     margin-left:0;
     width:90%;
+}
+#refresh_button{
+    width:95%;
+    text-align:right;
+    margin-right:10px;
+    padding:0;
+}
+#refresh_button button{
+    border:none;
+    background-color:#292929;
+    color:sandybrown
+
 }
 
 .fade-in-box {
