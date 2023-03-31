@@ -171,6 +171,12 @@ button div{
     font-weight:lighter;
 }
 
+#refresh_button button:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+
 .fade-in-box {
     animation: fadein 3s;
     -moz-animation: fadein 3s; /* Firefox */
