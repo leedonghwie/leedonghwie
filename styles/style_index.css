@@ -166,8 +166,9 @@ button div{
 #refresh_button button{
     border:none;
     background-color:#292929;
-    color:sandybrown
-
+    color:sandybrown;
+    font-size:18px;
+    font-weight:lighter;
 }
 
 .fade-in-box {
