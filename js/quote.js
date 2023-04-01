@@ -208,6 +208,11 @@ const quoteArray = [
         title: "『게임: 행위성의 예술』, 각주 39",
         link: "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=308296834&start=slayer",
     },
+    {
+        text:"요새는 어느 모임에를 가도 저는 놀림을 받는 역할을 하는 것 같아요. 놀림을 많이 받고 삽니다. 왜 이렇게 놀려... 놀림을 많이 받고 살아요. 사람들이 저를 놀립니다. 뭐 이게 어째대내 저게 저쨌대내 놀림을 받습니다. 놀림을 받아서 좋냐고요? 좋아요. 그래도 놀림을 받는다는 건 사람이 쉽다는 얘기니까. 놀리기 어려운 사람도 있잖아요. 모르겠습니다. 뭐 하여간 놀림을 많이 받고 살아요.",
+        title:"4.1 (짧게)",
+        link:"https://steadio.co/creator/mollumbo/posts/d241748c-9a93-460e-89e1-b28066975035",
+    }
 ];
 
 function arrayPush(){
