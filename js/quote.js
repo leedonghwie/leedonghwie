@@ -218,6 +218,11 @@ const quoteArray = [
         title:"4.2",
         link:"https://blog.naver.com/mollumbo/223062784092",
     },
+    {
+        text:"오늘은 정말 녹음한 거를 다시 듣기가 두려운 날이네요. 뭐라고 지껄여 놨는지 지금 잘 기억이 안 납니다.",
+        title:"4.2 (얼이 빠져서 정신이 약간 나가 있음)",
+        link:"https://steadio.co/creator/mollumbo/posts/2f6cd85f-aec4-4cb4-9a8f-f24e23758a35",
+    },
 ];
 
 function arrayPush(){
