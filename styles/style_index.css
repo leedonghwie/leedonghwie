@@ -229,3 +229,5 @@ button div{
       font-size:18px;
       padding:0;
   }
+
+  * {-webkit-font-smoothing: antialiased;}
