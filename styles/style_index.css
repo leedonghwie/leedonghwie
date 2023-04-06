@@ -238,7 +238,7 @@ button div{
     position:fixed;
     bottom:0;
     text-align:center;
-    font-size:8px;
+    font-size:small;
     white-space: nowrap;
     overflow:visible;
     text-overflow:ellipsis;
@@ -250,5 +250,5 @@ button div{
     position:fixed;
     bottom:0;
     text-align:center;
-    font-size:8px;
+    font-size:small;
   }
