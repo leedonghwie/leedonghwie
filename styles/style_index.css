@@ -142,7 +142,7 @@ button div{
 #quote{
     width:90%;
     overflow-wrap: break-word;
-    padding-bottom:0;
+    padding-bottom:50px;
 }
 
 #quote_text{
@@ -158,23 +158,46 @@ button div{
     width:90%;
 }
 #refresh_button{
-    width:95%;
     text-align:right;
     margin-right:10px;
     padding:0;
+    width:95%;
+    position:fixed;
+    bottom:10px;
 }
 #refresh_button button{
-    border:none;
-    background-color:#292929;
-    color:sandybrown;
     font-size:28px;
-    font-weight:lighter;
+    padding-bottom:20px;
+    border:none;
+    background-color:transparent;
+    color:sandybrown;
+    font-weight:lighter;    
 }
 
 #refresh_button button:hover{
     cursor:pointer;
 }
 
+
+#links {
+    width:100%;
+    position:fixed;
+    bottom:5px;
+    text-align:center;
+    font-size:x-small;
+    white-space: nowrap;
+    overflow:visible;
+    text-overflow:ellipsis;
+}
+
+  footer {
+    padding-top:10px;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    text-align:center;
+    font-size:x-small;
+  }
 
 .fade-in-box {
     animation: fadein 3s;
@@ -233,22 +256,3 @@ button div{
   * {-webkit-font-smoothing:antialiased;}
 
 
-  #links {
-    width:100%;
-    position:fixed;
-    bottom:0;
-    text-align:center;
-    font-size:small;
-    white-space: nowrap;
-    overflow:visible;
-    text-overflow:ellipsis;
-}
-
-  footer {
-    padding-top:10px;
-    width:100%;
-    position:fixed;
-    bottom:0;
-    text-align:center;
-    font-size:small;
-  }
