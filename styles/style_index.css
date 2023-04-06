@@ -167,8 +167,8 @@ button div{
     border:none;
     background-color:#292929;
     color:sandybrown;
-    font-size:40px;
-    font-weight:100;
+    font-size:28px;
+    font-weight:lighter;
 }
 
 #refresh_button button:hover{
