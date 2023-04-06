@@ -139,21 +139,25 @@ button div{
     margin:0;
 }
 
+#index_about{
+    padding-bottom:100px;
+}
+
 #quote{
     width:90%;
     overflow-wrap: break-word;
-    padding-bottom:50px;
+    padding-bottom:150px;
 }
 
 #quote_text{
     padding-bottom:20;
     padding:0;
     width:100%;
-    font-size: 14px;
-    line-height:21px;
+    font-size: 21px;
+    line-height:30px;
 }
 #quote_title{
-    font-size:14px;
+    font-size:21px;
     margin-left:0;
     width:90%;
 }
@@ -166,8 +170,8 @@ button div{
     bottom:10px;
 }
 #refresh_button button{
-    font-size:42px;
-    padding-bottom:20px;
+    font-size:49px;
+    padding-bottom:30px;
     border:none;
     background-color:transparent;
     color:sandybrown;
@@ -182,9 +186,9 @@ button div{
 #links {
     width:100%;
     position:fixed;
-    bottom:5px;
+    bottom:7px;
     text-align:center;
-    font-size:x-small;
+    font-size:14px;
     white-space: nowrap;
     overflow:visible;
     text-overflow:ellipsis;
@@ -195,7 +199,7 @@ button div{
     position:fixed;
     bottom:0;
     text-align:center;
-    font-size:x-small;
+    font-size:small;
   }
 
 .fade-in-box {
