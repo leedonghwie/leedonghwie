@@ -135,8 +135,9 @@ button div{
 }
 
 
-#logo figure{
+#logo{
     margin:0;
+    position:fixed;
 }
 
 #index_about{
@@ -147,6 +148,7 @@ button div{
     width:90%;
     overflow-wrap: break-word;
     padding-bottom:150px;
+    padding-top:250px;
 }
 
 #quote_text{
