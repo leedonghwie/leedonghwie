@@ -147,8 +147,8 @@ button div{
 #quote{
     width:90%;
     overflow-wrap: break-word;
-    padding-bottom:150px;
-    padding-top:250px;
+    padding-bottom:300px;
+    padding-top:300px;
 }
 
 #quote_text{
