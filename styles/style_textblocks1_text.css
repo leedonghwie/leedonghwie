@@ -32,17 +32,3 @@ li{
 a{
       color:sandybrown;
     }
-
-input[type="button"]{
-    display:flex; 
-    justify-content: left;
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    font-family: 'Pretendard';
-    font-size:large;
-}
-
-input[type="button"]:hover{
-  background-color:darkslategray;
-}
