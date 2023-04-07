@@ -228,6 +228,11 @@ const quoteArray = [
         title:"사진작가 하태우와의 대화: 하태우가 『시급하지만 인기는 없는 문제: 예술·언어·이론』 속 이동휘의 글에 대해 보충 설명을 요구함",
         link:"https://economic-writings.xyz/text/Talk_with_Haboksun.html",
     },
+    {
+        text:"하태우\n그럼 나도 물어볼게. 그러면 예를 들면 '헤겔이 변증법을 뭐, 예를 들면, 열었다'. 뭐 이렇게 철학에서 명제를 가져왔다고 치자. 그래 그럼 헤겔도 누군지를 알아야 되고, 헤겔이 누구야?\n\n이동휘\n그렇지\n\n하태우\n변증법으로 뭘 열었다는 거야? (그렇지) 똑같은 거 아니야?\n\n이동휘\n근데 그.. 헤겔이... 하... 헤겔? 헤겔이 무슨 명제를 말했나 모르겠다...",
+        title:"사진작가 하태우와의 대화: 하태우가 『시급하지만 인기는 없는 문제: 예술·언어·이론』 속 이동휘의 글에 대해 보충 설명을 요구함",
+        link:"https://economic-writings.xyz/text/Talk_with_Haboksun.html",
+    },
 ];
 
 function arrayPush(){
