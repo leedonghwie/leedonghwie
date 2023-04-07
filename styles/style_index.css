@@ -14,13 +14,7 @@ article{
     width: 50%;
     margin: auto;
 }
-h1 {
-    padding:10px;
-}
-h3{
-    margin-top:0;
-    margin-bottom:10px;
-}
+
     @media(max-width: 900px){
         article{
             width:100%;
@@ -32,106 +26,14 @@ a{
 }
 
 div{
-    padding-top: 2vh;
     height:fit-content;
     padding-bottom: 10px;
     padding-left: 2vw;
 }
-.book_set{
-    padding-bottom: 20px;
-    padding-left:0px;
-}
-
-.thumbnail{
-    border: none;
-    padding:0;
-    display:inline;
-    position:absolute;
-}
-.thumbnail figure{
-    margin:0;
-}
-.thumbnail img {
-    width:50px
-}
-
-.book_info{
-    font-size:20px;
-    font-weight:medium;
-    border: none;
-    display:inline-block;
-    margin-left: 60px;
-    padding-left:0px;
-    padding-top:0;
-    padding-right:15px;
-}
-
-div.content {
-    padding-left:0;
-    margin-right:3px;
-    font-size:smaller
-}
-
-.content ul{
-    padding-left:0;
-}
-
-.content ul li{
-    list-style-type:disc;
-}
-
-
-li{
-    padding-bottom: 7.5px;
-    margin-right: 10px;
-    font-weight:lighter;
-    list-style-type:none;
-
-}
-ol, ul{
-    margin-top: 0;
-}
-ul li p{
-    margin:0;
-    padding-left:20px;
-}
-li ul li{
-    padding-bottom:0;
-    margin-right:10px;
-    list-style-type: none;
-}
-.inline-ul{
-    margin:0;
-    padding-top:0; 
-}
-.inline-ul li{
-    display:inline;
-    margin-right:10px;
-}
-
-.inner_div{
-    padding-bottom: 0vh;
-}
-
-.white_block{
-    font-weight:normal;
-    background-color: white;
-    color: rgb(41,41,41);
-}
-
 button div{
     padding:0; 
     margin:0; 
     margin-right:10vw;
-}
-
-.book-cover {
-    width: 100%;
-    max-width: 200px;
-}
-
-.collapsible button div ul li {
-    font-weight:bold;
 }
 
 
@@ -147,8 +49,8 @@ button div{
 #quote{
     width:90%;
     overflow-wrap: break-word;
-    padding-bottom:300px;
-    padding-top:300px;
+    padding-top:60vh;
+    padding-bottom:60vh;
 }
 
 #quote_text{
@@ -243,24 +145,3 @@ button div{
           opacity: 1;
       }
   }
-
-  .contact { 
-      padding:0;
-  }
-  .contact_email{
-      font-size:18px;
-      padding:0;
-      font-weight:lighter;
-      margin-bottom:10px;
-  }
-  .contact_sns {
-      display:inline-block;
-      font-size:18px;
-      padding:0;
-  }
-
-  * {
-      -webkit-font-smoothing:antialiased;
-    }
-
-
