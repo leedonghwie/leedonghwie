@@ -57,7 +57,7 @@ button div{
     padding-bottom:20;
     padding:0;
     width:100%;
-    font-size: 21px;
+    font-size: 35px;
     line-height:30px;
 }
 #quote_title{
@@ -93,7 +93,7 @@ button div{
     text-align:right;
     overflow-wrap: break-word;
     color:transparent;
-    font-size:40px;
+    font-size:42px;
     font-weight:bold;
     -webkit-text-stroke: 0.3px sandybrown;
 }
