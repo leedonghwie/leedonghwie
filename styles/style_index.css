@@ -72,7 +72,7 @@ button div{
     padding:0;
     width:100%;
     position:fixed;
-    bottom:50%;
+    bottom:50vh;
     right:3%;
 }
 
@@ -89,7 +89,7 @@ button div{
 #links{
     width:98%;
     position:fixed;
-    bottom:35%;
+    bottom:35vh;
     text-align:right;
     overflow-wrap: break-word;
     color:transparent;
