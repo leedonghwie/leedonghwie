@@ -66,25 +66,17 @@ button div{
     width:90%;
 }
 #refresh_button{
+    height:50px;
     text-align:right;
     margin-right:10px;
     padding:0;
     width:100%;
     position:fixed;
-    bottom:50px;
-    right:10px;
-}
-#refresh_button button{
-    font-size:80px;
-    padding-bottom:0px;
-    height:80px;
-    border:none;
-    background-color:transparent;
-    color:white;
-    font-weight:lighter;
+    bottom:40px;
+    right:30px;
 }
 
-#refresh_button button:hover{
+#refresh_button img:hover{
     cursor:pointer;
 }
 
@@ -101,6 +93,11 @@ button div{
     overflow:visible;
     text-overflow:ellipsis;
     -webkit-text-stroke: 0.3px sandybrown;
+}
+#links article a{
+    color:transparent;
+    -webkit-text-stroke: 0.3px sandybrown;
+    text-decoration-thickness: 0.3px;
 }
 
 footer {
