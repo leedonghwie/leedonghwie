@@ -244,5 +244,5 @@ function arrayPush(){
     quote_title.appendChild(link);
     console.log((i+1)+"/"+quoteArray.length);
 }
-arrayPush();
 
+arrayPush();

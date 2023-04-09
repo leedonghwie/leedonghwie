@@ -81,6 +81,7 @@ button div{
     background-color:transparent;
     color:white;
     font-weight:lighter;
+    text-shadow: 1px 1px 3px sandybrown;
 }
 
 #refresh_button button:hover{
