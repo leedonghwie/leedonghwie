@@ -73,7 +73,12 @@ button div{
     width:100%;
     position:fixed;
     bottom:50%;
-    right:40px;
+    right:3%;
+}
+
+#refresh_button img{
+    height: 80px;
+    width: 80px;
 }
 
 #refresh_button img:hover{
@@ -84,14 +89,12 @@ button div{
 #links{
     width:98%;
     position:fixed;
-    bottom:45%;
+    bottom:35%;
     text-align:right;
+    overflow-wrap: break-word;
     color:transparent;
-    font-size:21px;
+    font-size:40px;
     font-weight:bold;
-    white-space: nowrap;
-    overflow:visible;
-    text-overflow:ellipsis;
     -webkit-text-stroke: 0.3px sandybrown;
 }
 #links article a{
@@ -99,14 +102,6 @@ button div{
     -webkit-text-stroke: 0.3px sandybrown;
     text-decoration-thickness: 0.3px;
 }
-
-footer {
-    width:100%;
-    position:fixed;
-    bottom:0;
-    text-align:right;
-    font-size:small;
-  }
 
 .fade-in-box {
     animation: fadein 3s;
