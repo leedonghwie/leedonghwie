@@ -61,7 +61,8 @@ button div{
     line-height:150%;
 }
 #quote_title{
-    font-size:21px;
+    font-size:35px;
+    line-height:150%;
     margin-left:0;
     width:90%;
 }
