@@ -10,11 +10,11 @@ body {
     font-weight:lighter;
     font-size:18px;
 }
+
 article{
     width: 50%;
     margin: auto;
 }
-
     @media(max-width: 900px){
         article{
             width:100%;
@@ -99,7 +99,7 @@ button div{
     font-weight:bold;
     -webkit-text-stroke: 0.3px sandybrown;
 }
-#links article a{
+#links a{
     color:transparent;
     -webkit-text-stroke: 0.3px sandybrown;
     text-decoration-thickness: 0.3px;
