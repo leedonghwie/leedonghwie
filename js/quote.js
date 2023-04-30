@@ -268,6 +268,11 @@ const quoteArray = [
         title:"4.24(탈고)",
         link:"https://steadio.co/creator/mollumbo/posts/426e6fe2-a918-4959-a55a-73a08341e892",
     },
+    {
+        text:"하여간 뭘 잘 모르는 것은 축복이다. 잘 모르는 채로, 잘 모르는 것에 대해서 어떻게 읽고 듣고 말할 것인지를 잘 생각해보아야 한다. 숭앙할 수 있다. 냉소할 수 있다. 감동할 수 있다. 사랑할 수 있다. 무관심할 수 있다. 모방할 수 있다. 또 뭘 할 수 있나. 그냥 모르는 채로 자기가 하던 이야기를 계속 할 수 있다. 아무말이나 할 수 있다. 제일 좋은 것은 아무 말이나 하는 것 같다.",
+        title:"4.30",
+        link:"https://blog.naver.com/mollumbo/223089517369",
+    },
 ]
 
 function arrayPush(){
