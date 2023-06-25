@@ -77,18 +77,19 @@ button div{
     width:100%;
     position:fixed;
     bottom:50vh;
-    right:3%;
+    right:3%;  
 }
 
 #refresh_button img{
     height: 80px;
     width: 80px;
+    border-style:solid;
+    border-width:thin;
 }
 
 #refresh_button img:hover{
     cursor:pointer;
 }
-
 
 #links{
     width:98%;
