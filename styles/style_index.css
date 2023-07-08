@@ -83,8 +83,6 @@ button div{
 #refresh_button img{
     height: 80px;
     width: 80px;
-    border-style:solid;
-    border-width:thin;
 }
 
 #refresh_button img:hover{
