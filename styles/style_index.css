@@ -70,7 +70,7 @@ button div{
     line-height:150%;
     margin-left:0;
     width:90%;
-    margin-bottom:100px;
+    margin-bottom:60vh;
 }*/
 #refresh_button{
     height:50px;
@@ -93,6 +93,8 @@ button div{
 }
 
 #links{
+    display:flex;
+    justify-content: center;
     bottom:0;
     position:fixed;
     text-align:center;
