@@ -71,8 +71,8 @@ button div{
     margin-left:0;
     width:90%;
     margin-bottom:60vh;
-}*/
-#refresh_button{
+}
+/*#refresh_button{
     height:50px;
     text-align:right;
     margin-right:10px;
@@ -90,11 +90,11 @@ button div{
 
 #refresh_button img:hover{
     cursor:pointer;
-}
+}*/
 
-#links{
-    display:flex;
-    justify-content: center;
+#contacts{
+    width:100%;
+    margin: 0 auto;
     bottom:0;
     position:fixed;
     text-align:center;
@@ -103,7 +103,7 @@ button div{
     font-weight:bold;
     -webkit-text-stroke: 1px sandybrown;
 }
-#links a{
+#contacts a{
     color:transparent;
     -webkit-text-stroke: 1px sandybrown;
     text-decoration-thickness: 1px;
