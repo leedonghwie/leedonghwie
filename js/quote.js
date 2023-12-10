@@ -25,7 +25,7 @@ function shuffleArray(array){
         const link = document.createElement('a'); 
             link.href=`${quoteArray[i].link}`;
             link.innerText=`${quoteArray[i].title}`;
-        quote_title.appendChild(link);
+    quote_title.appendChild(link);
 
     while(n<shuffledArray.length){
         const i_1=shuffledArray[n+1]
@@ -46,8 +46,6 @@ function shuffleArray(array){
 
 
 /*
-
-
 let i=0;
     while(i<quoteArray.length){
         const div=document.createElement("div");
