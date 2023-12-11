@@ -110,7 +110,7 @@ button div{
     position:fixed;
     text-align:center;
     color:transparent;
-    font-size:30px;
+    font-size:25    px;
     font-weight:bold;
     -webkit-text-stroke: 1px #F45B69;
 }
@@ -170,4 +170,25 @@ button div{
   img{
     width: 100%;
     margin: 0 auto;
+  }
+
+  .blinking{
+    -webkit-animation: blink 2s ease-in-out infinite alternate;
+    -moz-animation: blink 2s ease-in-out infinite alternate;
+    animation: blink 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes blink{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-moz-keyframes blink{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @keyframes blink{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
   }
