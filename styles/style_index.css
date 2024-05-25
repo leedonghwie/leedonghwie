@@ -108,16 +108,15 @@ button div{
     bottom:0;
     position:fixed;
     text-align:center;
-    color:transparent;
-    font-size:25    px;
-    font-weight:bold;
-    -webkit-text-stroke: 1px gray;
+    color:black;
+    font-size:18px;
+    font-weight:lighter;
 }
-#contacts a{
+/*#contacts a{
     color:transparent;
     -webkit-text-stroke: 1px gray;
     text-decoration-thickness: 1px;
-}
+}*/
 
 .fade-in-box {
     animation: fadein 3s;
