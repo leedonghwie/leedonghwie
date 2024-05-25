@@ -5,11 +5,10 @@ body {
     width:102vw;
     margin-left:1vw;
     margin-right:1vw;
-    background-color:#456990;
-    color:#E4FDE1;
+    background-color: white;
+    color:black;
     font-family: 'Pretendard';
     font-weight:lighter;
-    font-size:18px;
 }
 
 article{
@@ -24,7 +23,7 @@ article{
         }
     }   
 a{
-    color:#F45B69;
+    color: black;
     text-decoration-thickness: 1px;
 }
 
@@ -68,7 +67,7 @@ button div{
     padding-bottom:20;
     padding:0;
     width:100%;
-    font-size: 25px;
+    font-size: 18px;
     line-height:150%;
     font-weight:150;
     border-left:solid;
@@ -77,7 +76,7 @@ button div{
     padding-right: 20px;
 }
 .title{
-    font-size:25px;
+    font-size:18px;
     font-weight:250;
     line-height:150%;
     margin-left:0;
@@ -112,11 +111,11 @@ button div{
     color:transparent;
     font-size:25    px;
     font-weight:bold;
-    -webkit-text-stroke: 1px #F45B69;
+    -webkit-text-stroke: 1px gray;
 }
 #contacts a{
     color:transparent;
-    -webkit-text-stroke: 1px #F45B69;
+    -webkit-text-stroke: 1px gray;
     text-decoration-thickness: 1px;
 }
 
